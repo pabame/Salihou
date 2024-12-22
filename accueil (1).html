@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulaire</title>
+</head>
+     <link rel="stylesheet" href="note.css">
+<body>
+    <div class="container">
+        <form> 
+             <h1>Se connecter</h1>
+              <div class="box">
+                <input type="email" placeholder="Entrer votre email" </div>
+              <div class"box">
+                <input type="password" placeholder="Entrer Votre Mot de Passe" </div>
+              <div class="box">
+                <input type="submit" placeholder="Envoyer"</>
+              </div>
+        </form>
+        
+        <!-- form-right -->
+        <div class="form-right">
+          <h1>Bienvenue!</h1>
+          <p> Au Lycée de Tokombéré.</p>
+        </div>
+        <!-- ajouter des couleurs -->
+        <div class"colors-form">
+          <span oneclick="changeColor(#f825d5)"style="--i: #f825d5">
+          </span>
+          <span oneclick="changeColor(#02e0fd)"style="--i: #02e0fd">
+          </span>
+          <span style="--i: #14ff1c">
+          </span>
+          <span style="--i: #ffe41a">
+          </span>
+          <span style="--i: #fd1414">
+          </span>
+        </div>
+        <!-- JavaScript -->
+        <script>
+            const formRight = document.querySelector('.form-right')
+            function changeColor(color){
+              formRight.style.background = color
+            }
+        </script>
+</body>
+</html>
